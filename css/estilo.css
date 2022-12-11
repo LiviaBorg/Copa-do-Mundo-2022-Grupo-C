@@ -1,0 +1,177 @@
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.item1{
+	justify-content: space-between;
+	display: flex;
+	width:100%;
+	height:10vh;
+
+}
+.it1{
+	width:15%;
+	height:6vh;
+	background-color:red;
+	margin-top:15px;
+}
+.img{
+	width: 100%;
+	height: 6vh;
+}
+.x{
+	display: flex;
+	width: 7%;
+	height:10vh;
+}
+.it2{
+	width:28%;
+	height:4vh;
+	margin-top:15px;
+	margin-right: 10px;
+}
+.img1{
+	width: 100%;
+	height: 4vh;
+}
+.it3{
+	width:28%;
+	height:4vh;
+	margin-top:15px;
+	margin-right: 10px;
+}
+.img2{
+	width: 100%;
+	height: 4vh;
+}
+.it4{
+	width:28%;
+	height:4vh;
+	margin-top:15px;
+}
+.img3{
+	width: 100%;
+	height: 4vh;
+}
+.item2{
+	width:100%;
+	height:15vh;
+	
+}
+.img4{
+	width: 30%;
+	height: 15vh;
+	text-align: center;
+	margin-left: 35%;
+}
+.item3{
+	display: flex;
+	width:100%;
+	height:100vh;
+}
+.ite1{
+	width:20%;
+	height:100vh;
+	margin-top: 20px;
+}
+.img5{
+	width: 100%;
+	height: 100vh;
+}
+.ite2{
+	width:80%;
+	height:100vh;
+	margin-top: 20px;
+}
+.itm1{
+	display: flex;
+	width:100%;
+	height:40vh;
+	justify-content: space-between;
+}
+.i1{
+	width:48%;
+	height:35vh;
+	margin-left: 30px;
+}
+.i2{
+	width:48%;
+	height:35vh;
+}
+.img6{
+	width: 100%;
+	height: 35vh;
+}
+.itm2{
+	display: flex;
+	width:100%;
+	height:60vh;
+}
+.i3{
+	width:25%;
+	height:60vh;
+	margin-left: 30px;
+}
+.d1{
+	width:100%;
+	height:18vh;
+	margin-bottom: 3vh;
+}
+.img7{
+	width: 100%;
+	height: 18vh;
+}
+.d2{
+	width:100%;
+	height:18vh;
+	margin-bottom: 3vh;
+}
+.img8{
+	width: 100%;
+	height: 18vh;
+}
+.d3{
+	width:100%;
+	height:18vh;
+}
+.img9{
+	width: 100%;
+	height: 18vh;
+}
+.i4{
+	width:75%;
+	height:60vh;
+}
+.d4{
+	width:100%;
+	height:18vh;
+	margin-left: 15px;
+	margin-bottom: 3vh;
+}
+.d5{
+	width:100%;
+	height:18vh;
+	margin-left: 15px;
+	margin-bottom: 3vh;
+}
+.d6{
+	width:100%;
+	height:18vh;
+	margin-left: 15px;
+}
+.titulo1{
+	text-align: center;
+}
+p{
+	font-size: 17px;	
+	font-family: sans-serif;
+}
+@media (max-width: 760px){
+	.it1, .it3, .ite1, .ite2{
+		width: 100%;
+	}
+	.it2,.it4,.item2{
+		display: none;
+	}
+}
